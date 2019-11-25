@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: University of Connecticut        # brief name of host site without address (e.g., "Euphoric State University")
-address: Business School Bldg 127, 2100 Hillside Rd, Storrs, CT 06268     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country:  us    # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
-language: en     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+venue: "University of Connecticut"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Business School Bldg 127, 2100 Hillside Rd, Storrs, CT 06268"     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country:  "us"    # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "41.8"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-72.2"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: Jan 13-14, 2020    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: 9:00 am - 4:30 pm   # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "Jan 13-14, 2020 "   # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:00 am - 4:30 pm"   # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-01-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-01-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jeremy Teitelbaum", "Kendra Maas", "Pariksheet Nanda", "Timothy Moore"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["jeremy.teitelbaum@uconn.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: "https://pad.carpentries.org/2020-01-13-uconn"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -45,7 +45,7 @@ EVENTBRITE
 
 This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
+:qare not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
