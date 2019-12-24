@@ -47,8 +47,8 @@ workshop_repo: "https://github.com/carpentries-uconn/2020-01-13-uconn/"
 workshop_site: "https://carpentries-uconn.github.io/2020-01-13-uconn/"
 
 # Surveys.
-swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
-swc_post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
+swc_pre_survey: "https://carpentries.typeform.com/to/wi32rs?slug=2020-01-13-uconn"
+swc_post_survey: "https://carpentries.typeform.com/to/UgVdRQ?slug=2020-01-13-uconn"
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
